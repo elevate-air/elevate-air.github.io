@@ -1,0 +1,118 @@
+/*Style sheet created by: Ryann Snowden 4/3/25 */
+
+body {
+	background-color: #000000;
+}
+
+img {
+	max-width: 100%;
+}
+
+#container {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#slider {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+header {
+		text-align: center;
+}
+
+nav {
+		font-family: Impact, Lato, "sans-serif";
+		font-size: 2em;
+		font-weight: bold;
+		text-align: center;
+		margin-top: -1.5em;
+}
+
+nav ul {
+	padding: 0;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+nav li {
+	background-color: #000000;
+	border-radius: 2em;
+	list-style-type: none;
+	margin: 0.3em;
+	padding: 0.4em;
+}
+
+nav li a {
+	color: #ff00ff;
+	text-decoration: none;
+}
+
+.mobile {
+	display: inline;
+}
+
+.desktop {
+	display: none;
+}
+
+main { 
+		display: block;
+		font-family: Lato, sans-serif;
+		font-size: 1em;
+		margin-top: 0.5em;
+		padding: 1em;
+		border-radius: 2em 2em 2em 2em;
+		background-color: #f7d270;
+}
+
+main a {
+	border-radius: 1em;
+	color: #000000;
+	font-weight: bold;
+	padding: 0.5em;
+	text-decoration: none;
+}
+
+footer {
+		font-size: .70em;
+		text-align: center;
+		margin-top: 2em;
+		color: #ffffff;
+}
+
+footer a {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+@media only screen and (min-width: 700px) {
+	
+.mobile {
+	display: none;
+}
+
+.desktop {
+	display: inline;
+}
+
+img {
+	border-radius: 2em 2em 2em 2em;
+}
+main {
+	background-color: #00ffff;
+}
+
+figure img {
+	padding: 2em;
+}
+
+#gradient {
+	background: -moz-radial-gradient( #00ffff, #11216e, #000000); /* Firefox*/
+	background: -o-radial-gradient( #00ffff, #11216e, #000000); /* Opear*/
+	background: -webkit-radial-gradient( #00ffff, #11216e, #000000); /* Chrome, Safari*/
+	background: linear-gradient(to top left, #00ffff, #11216e, #000000); /* List the standard syntax last*/	
+	}
